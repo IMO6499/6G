@@ -5,6 +5,9 @@ import App from './App'
 import router from './router'
 import store from './store/index'
 import { sync } from 'vuex-router-sync'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+Vue.use(ElementUI)
 
 sync(store, router)
 

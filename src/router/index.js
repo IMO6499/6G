@@ -2,11 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/pages/Home'
 import About from '@/pages/About'
-import Contact from '@/pages/ContactUs'
+import Sight from '@/pages/Sight'
 import Category from '@/pages/JobCategory'
 import Blog from '@/pages/BlogHome'
 import BlogDetails from '@/pages/BlogDetails'
-import JobSearch from '@/pages/JobSearch'
 import JobSingle from '@/pages/JobSingle'
 import PricingPlan from '@/pages/PricingPlan'
 import Elements from '@/pages/Elements'
@@ -26,6 +25,11 @@ export default new Router({
       component: About
     },
     {
+      path: '/sight',
+      name: 'sight',
+      component: Sight
+    },
+    {
       path: '/category',
       name: 'category',
       component: Category
@@ -39,16 +43,6 @@ export default new Router({
       path: '/blogDetails',
       name: 'blogDetails',
       component: BlogDetails
-    },
-    {
-      path: '/contact',
-      name: 'contact',
-      component: Contact
-    },
-    {
-      path: '/jobSearch',
-      name: 'jobSearch',
-      component: JobSearch
     },
     {
       path: '/jobSingle',

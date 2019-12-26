@@ -1,46 +1,31 @@
 <template>
   <div>
-    <!-- Feature Area Starts -->
+    <!-- 6G introduction Starts -->
     <section class="feature-area section-padding2">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-top text-center">
-              <h2>Why choose us</h2>
-              <p>Open lesser winged midst wherein may morning</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="single-feature mb-4 mb-lg-0">
-              <h4>UX/UI Designer</h4>
-              <p class="py-3">
-                There spirit beginning bearing the open at own every give appear in third you sawe two boys</p>
-              <a href="#" class="secondary-btn">explore now<span class="flaticon-next"></span></a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="single-feature mb-4 mb-lg-0">
-              <h4>web Designer</h4>
-              <p class="py-3">
-                There spirit beginning bearing the open at own every give appear in third you sawe two boys</p>
-              <a href="#" class="secondary-btn">explore now<span class="flaticon-next"></span></a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="single-feature">
-              <h4>Accounting and Finance</h4>
-              <p class="py-3">
-                There spirit beginning bearing the open at own every give appear in third you sawe two boys</p>
-              <a href="#" class="secondary-btn">explore now<span class="flaticon-next"></span></a>
-            </div>
-          </div>
-        </div>
+        <h2>6G的概念</h2>
+        <p>6G，即第六代移动通信标准，一个概念性无线网络移动通信技术，也被称为第六代移动通信技术。主要促进的就是互联网的发展。
+          6G网络将是一个地面无线与卫星通信集成的全连接世界。通过将卫星通信整合到6G移动通信，实现全球无缝覆盖，网络信号能够抵达任何一个偏远的乡村，让深处山区的病人能接受远程医疗，让孩子们能接受远程教育。此外，在全球卫星定位系统、电信卫星系统、地球图像卫星系统和6G地面网络的联动支持下，地空全覆盖网络还能帮助人类预测天气、快速应对自然灾害等。这就是6G未来。6G通信技术不再是简单的网络容量和传输速率的突破，它更是为了缩小数字鸿沟，实现万物互联这个“终极目标”，这便是6G的意义。</p>
+      </div>
+    </section>
+    <!-- 6G introduction End -->
+
+    <!-- Feature Area Starts -->
+    <section class="feature-area section-padding2">
+      <div class="container" style="text-align: center">
+        <h2>6G popular science video</h2>
+        <p>Open up your new horizons</p>
       </div>
     </section>
     <!-- Feature Area End -->
 
+    <!-- 6G科普视频 Starts-->
+    <div style="text-align: center; position: center">
+      <video width="1320" height="740" controls="controls">
+        <source src="/static/video/6G1.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!-- 6G科普视频 End-->
 
     <!-- Team Area Starts -->
     <section class="team-area section-padding2">
@@ -48,8 +33,8 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="section-top text-center">
-              <h2>Experienced mentor team</h2>
-              <p>Who are in extremely love with eco friendly system.</p>
+              <h2>6G Forerunner Team</h2>
+              <p>Committed to dragging the world forward</p>
             </div>
           </div>
         </div>
@@ -67,7 +52,7 @@
               </div>
               <div class="team-footer text-center mt-4">
                 <h3>ethel davis</h3>
-                <h5>managing director (sales)</h5>
+                <h5>Dutch researcher</h5>
               </div>
             </div>
           </div>
@@ -84,7 +69,7 @@
               </div>
               <div class="team-footer text-center mt-4">
                 <h3>rodney cooper</h3>
-                <h5>creative art director (project)</h5>
+                <h5>Indian college student</h5>
               </div>
             </div>
           </div>
@@ -101,7 +86,7 @@
               </div>
               <div class="team-footer text-center mt-4">
                 <h3>dora walker</h3>
-                <h5>senior core developer</h5>
+                <h5>American researcher</h5>
               </div>
             </div>
           </div>
@@ -118,7 +103,7 @@
               </div>
               <div class="team-footer text-center mt-4">
                 <h3>lena keller</h3>
-                <h5>creative content developer</h5>
+                <h5>Chinese college student</h5>
               </div>
             </div>
           </div>
@@ -133,44 +118,8 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="section-top text-center">
-              <h2>Happy employee</h2>
-              <p>Open lesser winged midst wherein may morning</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="employee-slider owl-carousel">
-              <div class="single-slide d-sm-flex">
-                <div class="slide-img employee1">
-                  <div class="hover-state">
-                    <div class="hover-text text-center">
-                      <h3>david aron</h3>
-                      <h5>Facebook</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="slide-text align-self-center">
-                  <i class="fa fa-quote-left"></i>
-                  <p>
-                    Appear, called day. Sixth two after eve moved called winged very heaven two lights let all third gathered.</p>
-                </div>
-              </div>
-              <div class="single-slide d-sm-flex">
-                <div class="slide-img employee2">
-                  <div class="hover-state">
-                    <div class="hover-text text-center">
-                      <h3>david aron</h3>
-                      <h5>Twitter</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="slide-text align-self-center">
-                  <i class="fa fa-quote-left"></i>
-                  <p>
-                    Appear, called day. Sixth two after eve moved called winged very heaven two lights let all third gathered.</p>
-                </div>
-              </div>
+              <h2>The pride of the world</h2>
+              <p>6G connected to the world, thchnology regardless of country</p>
             </div>
           </div>
         </div>
@@ -181,6 +130,6 @@
 </template>
 
 <script>
-  export default {}
+    export default {}
 </script>
 
