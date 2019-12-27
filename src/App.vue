@@ -27,7 +27,7 @@
                 <li class="active"><router-link to="/">首页</router-link></li>
                 <li><router-link to="/about">关于-6G</router-link></li>
                 <li><router-link to="/sight">智慧场景</router-link></li>
-                <li><router-link to="/about">发展历程</router-link></li>
+                <li><router-link to="/development">发展历程</router-link></li>
                 <li><router-link to="/elements">国家现状</router-link></li>
                 <li class="menu-btn">
                   <a href="#" class="template-btn">log in</a>

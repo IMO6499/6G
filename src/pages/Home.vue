@@ -59,7 +59,7 @@
                 </ul>
               </div>
               <div class="news-title">
-                <h4><a href="#"><center>万物互联时代</center></a></h4>
+                <h4 style="text-align: center"><a href="#">万物互联时代</a></h4>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@
                 </ul>
               </div>
               <div class="news-title">
-                <h4><a href="#"><center>智慧出行</center></a></h4>
+                <h4 style="text-align: center"><a href="#">智慧出行</a></h4>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@
                 </ul>
               </div>
               <div class="news-title">
-                <h4><a href="#"><center>智慧设备</center></a></h4>
+                <h4 style="text-align: center"><a href="#">智慧设备</a></h4>
               </div>
             </div>
           </div>

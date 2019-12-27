@@ -9,6 +9,7 @@ import BlogDetails from '@/pages/BlogDetails'
 import JobSingle from '@/pages/JobSingle'
 import PricingPlan from '@/pages/PricingPlan'
 import Elements from '@/pages/Elements'
+import Development from '@/pages/Development'
 
 Vue.use(Router)
 
@@ -58,6 +59,11 @@ export default new Router({
       path: '/elements',
       name: 'elements',
       component: Elements
+    },
+    {
+      path: '/development',
+      name: 'development',
+      component: Development
     }
   ]
 })

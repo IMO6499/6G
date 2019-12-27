@@ -10,7 +10,7 @@
     <!-- Feature Area End -->
 
     <!-- 6G科普视频 Starts-->
-    <div style="text-align: center; position: center">
+    <div style="text-align: center; position: relative">
       <video width="1320" height="740" controls="controls">
         <source src="/static/video/6G2.mp4" type="video/mp4">
       </video>
