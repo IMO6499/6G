@@ -86,35 +86,6 @@
             </div>
           </div>
         </div>
-        <div class="section-top-border">
-          <h3 class="title_color">Image Gallery</h3>
-          <div class="row gallery-item">
-            <div class="col-md-4">
-              <a href="static/assets/images/elements/g1.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(static/assets/images/elements/g1.jpg);"></div></a>
-            </div>
-            <div class="col-md-4">
-              <a href="static/assets/images/elements/g2.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(static/assets/images/elements/g2.jpg);"></div></a>
-            </div>
-            <div class="col-md-4">
-              <a href="static/assets/images/elements/g3.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(static/assets/images/elements/g3.jpg);"></div></a>
-            </div>
-            <div class="col-md-6">
-              <a href="static/assets/images/elements/g4.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(static/assets/images/elements/g4.jpg);"></div></a>
-            </div>
-            <div class="col-md-6">
-              <a href="static/assets/images/elements/g5.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(static/assets/images/elements/g5.jpg);"></div></a>
-            </div>
-            <div class="col-md-4">
-              <a href="static/assets/images/elements/g6.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(static/assets/images/elements/g6.jpg);"></div></a>
-            </div>
-            <div class="col-md-4">
-              <a href="static/assets/images/elements/g7.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(static/assets/images/elements/g7.jpg);"></div></a>
-            </div>
-            <div class="col-md-4">
-              <a href="static/assets/images/elements/g8.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(static/assets/images/elements/g8.jpg);"></div></a>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
     <!-- End Align Area -->

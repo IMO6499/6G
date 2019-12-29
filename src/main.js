@@ -7,6 +7,7 @@ import store from './store/index'
 import { sync } from 'vuex-router-sync'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import draggable from 'vuedraggable'
 Vue.use(ElementUI)
 
 sync(store, router)
@@ -19,5 +20,8 @@ new Vue({
   router,
   store,
   template: '<App/>',
-  components: { App }
+  components: {
+    App,
+    draggable
+  }
 })

@@ -8,7 +8,7 @@ import Blog from '@/pages/BlogHome'
 import BlogDetails from '@/pages/BlogDetails'
 import JobSingle from '@/pages/JobSingle'
 import PricingPlan from '@/pages/PricingPlan'
-import Elements from '@/pages/Elements'
+import Country from '@/pages/Country'
 import Development from '@/pages/Development'
 
 Vue.use(Router)
@@ -56,9 +56,9 @@ export default new Router({
       component: PricingPlan
     },
     {
-      path: '/elements',
-      name: 'elements',
-      component: Elements
+      path: '/country',
+      name: 'country',
+      component: Country
     },
     {
       path: '/development',

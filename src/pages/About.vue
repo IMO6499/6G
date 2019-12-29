@@ -43,11 +43,6 @@
             <div class="single-team mb-5 mb-lg-0">
               <div class="team-img team-img1">
                 <div class="hover-state">
-                  <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  </ul>
                 </div>
               </div>
               <div class="team-footer text-center mt-4">
@@ -60,11 +55,6 @@
             <div class="single-team mb-5 mb-lg-0">
               <div class="team-img team-img2">
                 <div class="hover-state">
-                  <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  </ul>
                 </div>
               </div>
               <div class="team-footer text-center mt-4">
@@ -77,11 +67,6 @@
             <div class="single-team mb-5 mb-sm-0">
               <div class="team-img team-img3">
                 <div class="hover-state">
-                  <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  </ul>
                 </div>
               </div>
               <div class="team-footer text-center mt-4">
@@ -94,11 +79,6 @@
             <div class="single-team">
               <div class="team-img team-img4">
                 <div class="hover-state">
-                  <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  </ul>
                 </div>
               </div>
               <div class="team-footer text-center mt-4">
