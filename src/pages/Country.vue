@@ -15,7 +15,7 @@
     </section>
     <!-- End Chain Area -->
     <!-- Start HuaWei Area -->
-    <div class="container">
+    <div class="container" style="margin-bottom: 50px">
       <h3 class="text-heading title_color">华为引领世界！</h3>
       <p class="sample-text">
         今5G普及的浪潮还方兴未艾，在这国家发展的关键时期，我国在移动通信这一关键科技领域再着一步重棋。显然，我国不仅在5G时代立于世界的潮头，而且正准备着在面向未来的6G核心技术攻关、标准规范制定等方面赢得话语权。
@@ -29,7 +29,6 @@
     </div>
     <!-- End HuaWei Area -->
     <!-- Start Country Area -->
-    <div class="whole-wrap">
       <div class="container">
         <div class="section-top-border">
           <h3 class="mb-30 title_color" style="text-align: center">世界各国研发6G现状</h3>
@@ -41,111 +40,19 @@
                 <div class="visit">population</div>
                 <div class="percentage">Percentages</div>
               </div>
-              <div class="table-row">
-                <div class="serial">01</div>
-                <div class="country"><img src="static/assets/images/elements/f6.jpg" alt="flag">Canada</div>
-                <div class="visit">645032</div>
-                <div class="percentage">
-                  <div class="progress">
-                    <div class="progress-bar color-1" role="progressbar" style="width: 90%" aria-valuenow="80"
-                         aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="table-row">
-                <div class="serial">02</div>
-                <div class="country"><img src="static/assets/images/elements/f2.jpg" alt="flag">Canada</div>
-                <div class="visit">645032</div>
-                <div class="percentage">
-                  <div class="progress">
-                    <div class="progress-bar color-2" role="progressbar" style="width: 80%" aria-valuenow="30"
-                         aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="table-row">
-                <div class="serial">03</div>
-                <div class="country"><img src="static/assets/images/elements/f4.jpg" alt="flag">Canada</div>
-                <div class="visit">645032</div>
-                <div class="percentage">
-                  <div class="progress">
-                    <div class="progress-bar color-3" role="progressbar" style="width: 70%" aria-valuenow="55"
-                         aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="table-row">
-                <div class="serial">04</div>
-                <div class="country"><img src="static/assets/images/elements/f3.jpg" alt="flag">Canada</div>
-                <div class="visit">645032</div>
-                <div class="percentage">
-                  <div class="progress">
-                    <div class="progress-bar color-4" role="progressbar" style="width: 60%" aria-valuenow="60"
-                         aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="table-row">
-                <div class="serial">05</div>
-                <div class="country"><img src="static/assets/images/elements/f5.jpg" alt="flag">Canada</div>
-                <div class="visit">645032</div>
-                <div class="percentage">
-                  <div class="progress">
-                    <div class="progress-bar color-5" role="progressbar" style="width: 40%" aria-valuenow="40"
-                         aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="table-row">
-                <div class="serial">06</div>
-                <div class="country"><img src="static/assets/images/elements/f1.jpg" alt="flag">Canada</div>
-                <div class="visit">645032</div>
-                <div class="percentage">
-                  <div class="progress">
-                    <div class="progress-bar color-6" role="progressbar" style="width: 10%" aria-valuenow="70"
-                         aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="table-row">
-                <div class="serial">07</div>
-                <div class="country"><img src="static/assets/images/elements/f7.jpg" alt="flag">Canada</div>
-                <div class="visit">645032</div>
-                <div class="percentage">
-                  <div class="progress">
-                    <div class="progress-bar color-7" role="progressbar" style="width: 5%" aria-valuenow="30"
-                         aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="table-row">
-                <div class="serial">08</div>
-                <div class="country"><img src="static/assets/images/elements/f8.jpg" alt="flag">Canada</div>
-                <div class="visit">645032</div>
-                <div class="percentage">
-                  <div class="progress">
-                    <div class="progress-bar color-8" role="progressbar" style="width: 5%" aria-valuenow="60"
-                         aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
-        </div>
-        <div class="section-top-border">
-          <h3 class="title_color">Image Gallery</h3>
-          <div id="draggable">
             <transition-group id='app' name="drog" tag="ul">
               <li draggable="true" v-for="(item, index) in lists" style="background: url(static/assets/images/elements/f8.jpg)" @dragstart="dragStart($event, index)"
                   @dragover="allowDrop" @drop="drop($event, index)" v-bind:key="item">
                     <div class="progress-table">
                       <div class="table-row">
                         <div class="serial">{{item.id}}</div>
-                        <div class="country"><img src="static/assets/images/elements/f6.jpg" alt="flag">Canada</div>
-                        <div class="visit">645032</div>
+                        <div class="country"><img :src="item.src" alt="flag">{{item.country}}</div>
+                        <div class="visit">{{item.population}}</div>
                         <div class="percentage">
                           <div class="progress">
-                            <div class="progress-bar color-1" role="progressbar" style="width: 90%" aria-valuenow="80"
+                            <div :class="item.clas" role="progressbar" :style="{'width': item.progress}" aria-valuenow="80"
                                  aria-valuemin="0" aria-valuemax="100"></div>
                           </div>
                         </div>
@@ -153,8 +60,6 @@
                     </div>
               </li>
             </transition-group>
-          </div>
-        </div>
       </div>
     </div>
     <!-- End Country Area -->
@@ -169,57 +74,65 @@
               id: 1,
               country: 'country',
               population: 645032,
-              progress: 90,
-              src: 'static/assets/images/elements/f6.jpg'
+              progress: '90%',
+              src: 'static/assets/images/elements/f6.jpg',
+              clas: 'progress-bar color-2'
             },
             {
               id: 2,
               country: 'country',
               population: 645032,
-              progress: 90,
-              src: 'static/assets/images/elements/f2.jpg'
+              progress: '80%',
+              src: 'static/assets/images/elements/f2.jpg',
+              clas: 'progress-bar color-1'
             },
             {
               id: 3,
               country: 'country',
               population: 645032,
-              progress: 90,
-              src: 'static/assets/images/elements/f4.jpg'
+              progress: '70%',
+              src: 'static/assets/images/elements/f4.jpg',
+              clas: 'progress-bar color-3'
             },
             {
               id: 4,
               country: 'country',
               population: 645032,
-              progress: 90,
-              src: 'static/assets/images/elements/f3.jpg'
+              progress: '60%',
+              src: 'static/assets/images/elements/f3.jpg',
+              clas: 'progress-bar color-4'
             },
             {
               id: 5,
               country: 'country',
               population: 645032,
-              progress: 90,
-              src: 'static/assets/images/elements/f5.jpg'
+              progress: '40%',
+              src: 'static/assets/images/elements/f5.jpg',
+              clas: 'progress-bar color-5'
             },
             {
               id: 6,
               country: 'country',
               population: 645032,
-              progress: 90,
-              src: 'static/assets/images/elements/f1.jpg'
+              progress: '10%',
+              src: 'static/assets/images/elements/f1.jpg',
+              clas: 'progress-bar color-6'
             },
             {
               id: 7,
               country: 'country',
               population: 645032,
-              progress: 90,
-              src: 'static/assets/images/elements/f7.jpg'
+              progress: '5%',
+              src: 'static/assets/images/elements/f7.jpg',
+              clas: 'progress-bar color-7'
             },
             {
               id: 8,
               country: 'country',
               population: 645032,
-              progress: 90,
-              src: 'static/assets/images/elements/f8.jpg'
+              progress: '5%',
+              src: 'static/assets/images/elements/f8.jpg',
+              clas: 'progress-bar color-8'
             }]
         }
       },
