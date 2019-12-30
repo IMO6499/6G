@@ -19,7 +19,7 @@
             </el-input>
           </el-col>
           <el-col :span="10" class="login-captcha">
-            <img style="display: block;width: 100%; height: 40px" src="/static/assets/images/yzm.jpeg">
+            <img style="display: block;width: 100%; height: 40px" src="static/assets/images/yzm.jpeg" alt="" class="img-fluid">
           </el-col>
         </el-row>
       </el-form-item>
@@ -70,9 +70,6 @@
         }
       },
       components: {
-      },
-      created () {
-        this.getCaptcha()
       },
       mounted () {
         this.getDate()

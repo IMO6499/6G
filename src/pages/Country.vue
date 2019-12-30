@@ -72,7 +72,7 @@
           lists: [
             {
               id: 1,
-              country: 'country',
+              country: 'China',
               population: 645032,
               progress: '90%',
               src: 'static/assets/images/elements/f6.jpg',
@@ -80,40 +80,40 @@
             },
             {
               id: 2,
-              country: 'country',
-              population: 645032,
+              country: 'USA',
+              population: 535238,
               progress: '80%',
               src: 'static/assets/images/elements/f2.jpg',
               clas: 'progress-bar color-1'
             },
             {
               id: 3,
-              country: 'country',
-              population: 645032,
+              country: 'Germany',
+              population: 368750,
               progress: '70%',
               src: 'static/assets/images/elements/f4.jpg',
               clas: 'progress-bar color-3'
             },
             {
               id: 4,
-              country: 'country',
-              population: 645032,
+              country: 'UK',
+              population: 246258,
               progress: '60%',
               src: 'static/assets/images/elements/f3.jpg',
               clas: 'progress-bar color-4'
             },
             {
               id: 5,
-              country: 'country',
-              population: 645032,
+              country: 'Australia',
+              population: 145031,
               progress: '40%',
               src: 'static/assets/images/elements/f5.jpg',
               clas: 'progress-bar color-5'
             },
             {
               id: 6,
-              country: 'country',
-              population: 645032,
+              country: 'Canada',
+              population: 45032,
               progress: '10%',
               src: 'static/assets/images/elements/f1.jpg',
               clas: 'progress-bar color-6'
@@ -121,7 +121,7 @@
             {
               id: 7,
               country: 'country',
-              population: 645032,
+              population: 25032,
               progress: '5%',
               src: 'static/assets/images/elements/f7.jpg',
               clas: 'progress-bar color-7'
@@ -129,7 +129,7 @@
             {
               id: 8,
               country: 'country',
-              population: 645032,
+              population: 25032,
               progress: '5%',
               src: 'static/assets/images/elements/f8.jpg',
               clas: 'progress-bar color-8'
