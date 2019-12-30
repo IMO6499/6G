@@ -31,7 +31,7 @@
     <!-- Start Country Area -->
       <div class="container">
         <div class="section-top-border">
-          <h3 class="mb-30 title_color" style="text-align: center">世界各国研发6G现状</h3>
+          <h3 class="mb-30 title_color" style="text-align: center; margin-bottom: 100px">世界各国研发6G现状</h3>
           <div class="progress-table-wrap">
             <div class="progress-table">
               <div class="table-head">

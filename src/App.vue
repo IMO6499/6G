@@ -6,6 +6,8 @@
   </div>
   <!-- Preloader End -->
 
+
+
   <!-- Header Area Starts -->
   <header class="header-area single-page">
     <div class="header-top">
@@ -16,6 +18,7 @@
               <router-link to="/"><img src="static/assets/images/logo-light.png" alt="logo"></router-link>
             </div>
           </div>
+
           <div class="col-lg-10">
             <div class="custom-navbar">
               <span></span>
@@ -30,13 +33,21 @@
                 <li><router-link to="/development">发展历程</router-link></li>
                 <li><router-link to="/country">国家现状</router-link></li>
                 <li class="menu-btn">
-                  <a href="#" class="template-btn">log in</a>
+                  <a href="#" class="template-btn" @click="loginDialog()">log in</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="solarsys">
+      <!--太阳-->
+      <div class='sun'></div>
+      <!--地球轨道-->
+      <div class='earthOrbit'></div>
+      <!--地球-->
+      <div class='earth'></div>
     </div>
     <div class="page-title text-center">
       <div class="container">
@@ -109,12 +120,88 @@
     </div>
   </footer>
   <!-- Footer Area End -->
-
+  <login v-if="login" ref="login"/>
 </div>
 </template>
 <script>
-export default {
-  name: 'app'
-}
+    import Login from './pages/Login'
+
+    export default {
+      data: function () {
+        return {
+          login: false
+        }
+      },
+      components: {
+        Login
+      },
+      methods: {
+        loginDialog: function () {
+          this.login = true
+          this.$nextTick(() => {
+            this.$refs.login.init()
+          })
+        }
+      }
+    }
 </script>
+<style>
+  .solarsys{
+    width: 300px;
+    height: 300px;;
+    position: absolute;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0);
+    padding: 0;
+    transform: scale(1);
+  }
+
+  /*太阳*/
+  .sun {
+    left:207px;
+    top:107px;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(248,107,35);
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgb(248,107,35), -5px -5px 10px rgb(248,107,35), 5px -5px 10px rgb(248,107,35), -5px 5px 10px rgb(248,107,35);
+    position: absolute;
+    margin: 0;
+  }
+
+  /*地球*/
+  .earth {
+    left:116.5px;
+    top:141px;
+    height: 38px;
+    width: 38px;
+    background-color: rgb(115,114,174);
+    border-radius: 50%;
+    position: absolute;
+    transform-origin: 134px 9px;
+    animation: rotate 6.25s infinite linear;
+  }
+
+  /*地球轨道*/
+  .earthOrbit {
+    left:125px;
+    top:25px;
+    height: 250px;
+    width: 250px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-style: dashed;
+    border-color: gray;
+    position: absolute;
+    border-width: 1px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  @keyframes rotate {
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+</style>
 
